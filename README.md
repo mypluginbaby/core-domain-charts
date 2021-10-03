@@ -1,67 +1,67 @@
-# Core Domain Charts
+# Основные Доменные диаграммы
 
-Core Domain Charts help you to visualise the strategic importance of each sub-domain or business capability in your software architecture allowing you to make business model-aligned architectural decisions.
+Диаграммы основных доменов помогают вам визуализировать стратегическую важность каждого поддомена или бизнес-возможностей в вашей архитектуре программного обеспечения, позволяя вам принимать архитектурные решения, соответствующие бизнес-модели.
 
-[Core Domains](https://www.youtube.com/watch?v=PBRluTD5oHo) are the parts of your domain where the expected [ROI](https://www.investopedia.com/terms/r/returnoninvestment.asp) is greatest, and deserve the highest focus.
+[Основные домены](https://www.youtube.com/watch?v=PBRluTD5oHo ) являются ли части вашего домена, где ожидаемый [ROI](https://www.investopedia.com/terms/r/returnoninvestment.asp ) является величайшим и заслуживает самого пристального внимания.
 
-The true power of this technique is the conversations that it triggers, especially cross-discipline. Complexity is something that engineers can gauge whereas business differentiation is provided by product managers or business stakeholders.
+Истинная сила этой техники заключается в разговорах, которые она вызывает, особенно междисциплинарных. Сложность - это то, что инженеры могут оценить, в то время как дифференциация бизнеса обеспечивается менеджерами по продуктам или заинтересованными сторонами бизнеса.
 
-![alt text](resources/core-domain-chart-template.jpg "Core Domain Chart")
+![альтернативный текст](resources/core-domain-chart-template.jpg "Диаграмма основных доменов")
 
-## How to Use
+## Как использовать
 
-There are a variety of ways the Core Domain Chart can be used, but it's important not to try to and visualise all the possible information in a single diagram. Below are multiple versions showing different types of information to choose from.
+Существует множество способов использования диаграммы основного домена, но важно не пытаться визуализировать всю возможную информацию в одной диаграмме. Ниже приведены несколько версий, показывающих различные типы информации на выбор.
 
-### Sub-domain/Bounded Context Portfolio 
+### Поддомен/Ограниченный Контекстный портфель
 
-This is the simplest flavour. Simply plot each of your sub-domains or bounded contexts on the chart to get a relative sense of ordering between them.
+Это самый простой аромат. Просто нанесите каждый из ваших поддоменов или ограниченных контекстов на диаграмму, чтобы получить относительное представление о порядке между ними.
 
-### Context Map With Team Topologies
+### Контекстная Карта С Топологиями Команд
 
-You can augment your Core Domain Charts with the dependencies between your bounded contexts and the type of [Team Topologies](https://github.com/TeamTopologies) Interaction Mode in play.
+Вы можете дополнить свои диаграммы основных доменов зависимостями между вашими ограниченными контекстами и типом [Топологии команд](https://github.com/TeamTopologies ) Режим взаимодействия в игре.
 
-### Architecture Migration
+### Миграция архитектуры
 
-With a slight tweak of the y-axis label, core domain charts can be used to plan the order in which you migrate from your current architecture to your target architecture.
+С небольшой настройкой метки оси y диаграммы основных доменов можно использовать для планирования порядка перехода от текущей архитектуры к целевой архитектуре.
 
-![alt text](resources/architecture-migration-core-domain-chart.jpg "Architecture Migration Core Domain Chart")
+![альтернативный текст](resources/architecture-migration-core-domain-chart.jpg "Диаграмма основных доменов миграции архитектуры")
 
-## Examples
+## Примеры
 
-Check out the [Examples](/examples) to get a better understanding of these charts.
+Ознакомьтесь с [пРимерами] (/примеры), чтобы лучше понять эти диаграммы.
 
-Please feel free to create a pull request with your own examples.
+Пожалуйста, не стесняйтесь создавать запрос на вытягивание с вашими собственными примерами.
 
-## Additional Resources
+## Дополнительные ресурсы
 
-- [Core Domain Patterns](https://medium.com/nick-tune-tech-strategy-blog/core-domain-patterns-941f89446af5)
+- [Шаблоны основных доменов](https://medium.com/nick-tune-tech-strategy-blog/core-domain-patterns-941f89446af5 )
 
-- [Visualising Sociotechnical Architecture with DDD and Team Topologies](https://medium.com/nick-tune-tech-strategy-blog/visualising-sociotechnical-architecture-with-ddd-and-team-topologies-48c6be036c40)
+- [Визуализация социотехнической архитектуры с помощью DDD и команды Topologies](https://medium.com/nick-tune-tech-strategy-blog/visualising-sociotechnical-architecture-with-ddd-and-team-topologies-48c6be036c40)
 
-## Contributors
+## Участники
 
-Thanks to all [existing and future contributors](https://github.com/ddd-crew/core-domain-charts/graphs/contributors) and to [Eduardo da Silva](https://twitter.com/emgsilva) who has contributed to the Core Domain Chart:
+Спасибо всем [существующим и будущим участникам](https://github.com/ddd-crew/core-domain-charts/graphs/contributors ) и [Эдуарду да Силве](https://twitter.com/emgsilva ) кто внес свой вклад в диаграмму основных доменов:
 
-The Core Domain Chart was inspired heavily by:
+Диаграмма основных доменов была в значительной степени вдохновлена:
 
-- [Wardley Mapping](https://medium.com/wardleymaps)
-- [Team Topologies](https://teamtopologies.com/)
+- [Отображение Уордли](https://medium.com/wardleymaps )
+- [Топологии команд](https://teamtopologies.com /)
 
-## Contributions, Questions and Feedback
+## Материалы, Вопросы и отзывы
 
-The Core Domain Chart is freely available for you to use. In addition, your feedback and ideas are welcome to improve it or to create new versions.
+Диаграмма основных доменов доступна для вас в свободном доступе. Кроме того, мы будем рады вашим отзывам и идеям по его улучшению или созданию новых версий.
 
-If you have questions you can ping us or open an [Issue](https://github.com/ddd-crew/core-domain-charts/issues/new/choose).
+Если у вас есть вопросы, вы можете отправить нам сообщение или открыть [вопрос] (https://github.com/ddd-crew/core-domain-charts/issues/new/choose ).
 
-Feel free to also send us a pull request with your examples.
+Не стесняйтесь также отправлять нам запрос на извлечение с вашими примерами.
 
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC НА 4.0][cc-by-щит]][cc-by]
 
-This work is licensed under a [Creative Commons Attribution 4.0 International
-License][cc-by].
+Эта работа лицензирована в соответствии с [Creative Commons Attribution 4.0 International
+Лицензия][cc-by].
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+[![CC НА 4.0][cc-по-изображению]][cc-по]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+[cc-по-изображению]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-щит]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
